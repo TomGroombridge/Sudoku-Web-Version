@@ -5,12 +5,12 @@ div.box, div.cell {
 	}
 
 .cell input { 
-	width: 30px; 
-	height: 30px;
+	width: 60px; 
+	height: 60px;
 	}	
 
 div.box {
-	border: 2px solid red;
+	border: 4px solid red;
 }
 
 #sudoku {
@@ -21,5 +21,24 @@ div.box {
 body {
 	text-align: center;
 	font-family: Arial;
+	background: url(http://t0.gstatic.com/images?q=tbn:ANd9GcR_a_7K1k6HkwO8PVOTBTHZdw44Wn7BiWWvS1ipxKeyMAnPIMJd);
 }
+
+h1 {
+	color: white;
+}
+
+.incorrect {
+	background-color: yellow;
+}
+
+.value-provided { 
+background-color:  #DDD;
+}
+
+#flash {
+	margin: 20px ;
+	color: #FF0000;
+}
+
 
