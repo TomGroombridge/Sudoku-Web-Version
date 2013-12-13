@@ -7,6 +7,7 @@ require_relative './lib/cell'
 require_relative './lib/helpers'
 
 	set :partial_template_engine, :erb
+	set :session_secret, "i'm the secret key to sign the cookie"
 	enable :sessions
 	use Rack::Flash
 
