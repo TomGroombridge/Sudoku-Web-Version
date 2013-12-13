@@ -15,20 +15,19 @@
     <% 3.times do |row| %>
       <div class='row'>  
         <% 3.times do |box| %>
-            <div class="box">
-           <% 3.times do |cell_row| %>
-                <div class="cell_row">
-                    <% 3.times do |cell| %>
-                        <div class="cell">
-                      <%= partial :cell, :locals=>{:cell_index => row * 27 + box * 3 + cell_row * 9 + cell} %>
-                      
-                      </div>
-                   <% end %>                
-                  </div>
-                <% end %>
+          <div class="box">
+            <% 3.times do |cell_row| %>
+              <div class="cell_row">
+                <div class="cell">
+                  <% 3.times do |cell| %>
+                  <%= partial :cell, :locals=>{:cell_index => row*27+box*3+cell_row*9+cell} %>  
+                  <% end %>                
+                </div>
               </div>
             <% end %>
           </div>
+        <% end %>
+      </div>
         <% end %>
      <button>Check solution</button>
     </div>

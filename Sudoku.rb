@@ -4,7 +4,7 @@ require 'rack-flash'
 
 require_relative './lib/sudoku'
 require_relative './lib/cell'
-require_relative './lib/helpers'
+require_relative './helpers/application.rb'
 
 	set :partial_template_engine, :erb
 	set :session_secret, "i'm the secret key to sign the cookie"
