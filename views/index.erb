@@ -8,7 +8,12 @@
 
   <h1> Life is too short for playing Sudoku </h1>
   <div id='flash'>
-  <h2><%= flash[:notice] %> </h2
+  <h2><%= flash[:notice] %> </h2>
+  </div>
+  <div id="show-solution-button">
+  <form method="get" action="/solution">
+  <button type="submit"> See Solution</button>
+  </form>
   </div>
  <form action="/" method="post">
   <div id="sudoku">
