@@ -9,4 +9,4 @@ gem "sinatra-partial"
 
 gem 'rack-flash3'
 
-gem 'newrelic'
+gem 'newrelic_rpm'
