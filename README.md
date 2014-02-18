@@ -10,10 +10,6 @@ web app using [Sinatra](http://www.sinatrarb.com/) - a DSL for web services.
 Evgeny Shadchev ([@shadchnev](http://twitter.com/shadchnev)) provided me with
 instruction on how to set up Sinatra and the skeleton of this web app.
 
-I used the code I wrote in my Week 4 task
-[Sudoku Solver](https://github.com/jamesjoshuahill/sudoku-solver) to generate
-new puzzles.
-
 This web app could be improved by more integration tests and a more
 sophisticated puzzle generator that would check there is only one solution to a
 new puzzle.
