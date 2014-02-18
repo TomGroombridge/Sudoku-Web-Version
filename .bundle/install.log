@@ -1,0 +1,10 @@
+# Logfile created on 2014-02-17 15:57:23 +0000 by logger.rb/44203
+I, [2014-02-17T15:57:23.209422 #28190]  INFO -- : 0:  newrelic_rpm (3.6.9.171) from /Users/tomgroombridge/.rvm/gems/ruby-2.1.0/specifications/newrelic_rpm-3.6.9.171.gemspec
+I, [2014-02-17T15:57:23.209833 #28190]  INFO -- : 0:  rack (1.5.2) from /Users/tomgroombridge/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-02-17T15:57:24.998867 #28190]  INFO -- : 0:  rack-flash3 (1.0.5) from /Users/tomgroombridge/.rvm/gems/ruby-2.1.0/specifications/rack-flash3-1.0.5.gemspec
+I, [2014-02-17T15:57:27.375694 #28190]  INFO -- : 0:  rack-protection (1.5.1) from /Users/tomgroombridge/.rvm/gems/ruby-2.1.0/specifications/rack-protection-1.5.1.gemspec
+I, [2014-02-17T15:57:27.376225 #28190]  INFO -- : 0:  shotgun (0.9) from /Users/tomgroombridge/.rvm/gems/ruby-2.1.0/specifications/shotgun-0.9.gemspec
+I, [2014-02-17T15:57:27.376537 #28190]  INFO -- : 0:  tilt (1.4.1) from /Users/tomgroombridge/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-02-17T15:57:29.962926 #28190]  INFO -- : 0:  sinatra (1.4.4) from /Users/tomgroombridge/.rvm/gems/ruby-2.1.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-02-17T15:57:31.794767 #28190]  INFO -- : 0:  sinatra-partial (0.4.0) from /Users/tomgroombridge/.rvm/gems/ruby-2.1.0/specifications/sinatra-partial-0.4.0.gemspec
+I, [2014-02-17T15:57:31.795168 #28190]  INFO -- : 0:  bundler (1.5.1) from /Users/tomgroombridge/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.1.gemspec
